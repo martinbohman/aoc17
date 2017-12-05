@@ -9,7 +9,7 @@ def search_divisible(num, rest_of_line)
   nil
 end
 
-file = File.open('input.txt', 'r')
+file = File.open(__dir__ + '/input.txt', 'r')
 checksum1 = 0
 checksum2 = 0
 file.readlines.each do |line|

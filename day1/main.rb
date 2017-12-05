@@ -1,4 +1,4 @@
-file = File.open('input.txt', 'r')
+file = File.open(__dir__ + '/input.txt', 'r')
 line = file.readlines.first
 sum1 = 0
 sum2 = 0
